@@ -11,6 +11,7 @@ import {QuotesPage} from "../pages/quotes/quotes";
 import {SettingsPage} from "../pages/settings/settings";
 import {TabsPage} from "../pages/tabs/tabs";
 import {QuotesService} from "../services/quotes";
+import {QuotePage} from "../pages/quote/quote";
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import {QuotesService} from "../services/quotes";
     FavoritesPage,
     LibraryPage,
     QuotesPage,
+    QuotePage,
     SettingsPage,
     TabsPage
   ],
@@ -31,6 +33,7 @@ import {QuotesService} from "../services/quotes";
     FavoritesPage,
     LibraryPage,
     QuotesPage,
+    QuotePage,
     SettingsPage,
     TabsPage
   ],
