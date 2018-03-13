@@ -5,7 +5,7 @@ import {LibraryPage} from "../library/library";
 @Component({
   selector: 'page-tabs',
   template: `
-    <ion-tabs>  //can used selectedIndex to set up the default showing page
+    <ion-tabs>  //can use selectedIndex to set up the default showing page
       <ion-tab [root]="favoritesPage" tabTitle="Favorites" tabIcon="star"></ion-tab>
       <ion-tab [root]="libraryPage" tabTitle="Library" tabIcon="book"></ion-tab>
     </ion-tabs>

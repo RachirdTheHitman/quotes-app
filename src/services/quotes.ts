@@ -20,8 +20,13 @@ export class QuotesService {
   }
 
   isQuoteFavorite(quote: Quote) {
+    // const temp = this.favoriteQuotes.find((quoteEl: Quote) => {
+    //   return quoteEl.id == quote.id;});
     return this.favoriteQuotes.find((quoteEl: Quote) => {
       return quoteEl.id == quote.id;
-    })
+    });
+    // console.log(temp);
+    // return temp;
   }
+
 }
